@@ -75,9 +75,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Cluster 4 Cleaning Roster" },
       { name: "description", content: "Live cleaning schedule and rotation for Cluster 4 — maintaining cleanliness through teamwork." },
       { property: "og:title", content: "Cluster 4 Cleaning Roster" },
-      { property: "og:description", content: "Live cleaning schedule and rotation for Cluster 4." },
+      { property: "og:description", content: "Live cleaning schedule and rotation for Cluster 4 — maintaining cleanliness through teamwork." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Cluster 4 Cleaning Roster" },
+      { name: "twitter:description", content: "Live cleaning schedule and rotation for Cluster 4 — maintaining cleanliness through teamwork." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/hQimjodusiaOUyOpgSRPSH2EXDI2/social-images/social-1779180425274-1001103183.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/hQimjodusiaOUyOpgSRPSH2EXDI2/social-images/social-1779180425274-1001103183.webp" },
     ],
     links: [
       {
